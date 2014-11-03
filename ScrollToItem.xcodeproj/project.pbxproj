@@ -14,6 +14,7 @@
 		0F2D70B91A07ED4800BD9E29 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F2D70B81A07ED4800BD9E29 /* Images.xcassets */; };
 		0F2D70BC1A07ED4800BD9E29 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F2D70BA1A07ED4800BD9E29 /* LaunchScreen.xib */; };
 		0F2D70C81A07ED4800BD9E29 /* ScrollToItemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2D70C71A07ED4800BD9E29 /* ScrollToItemTests.m */; };
+		0F2D70D31A07EECA00BD9E29 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2D70D21A07EECA00BD9E29 /* CollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		0F2D70C11A07ED4800BD9E29 /* ScrollToItemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollToItemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F2D70C61A07ED4800BD9E29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F2D70C71A07ED4800BD9E29 /* ScrollToItemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollToItemTests.m; sourceTree = "<group>"; };
+		0F2D70D11A07EECA00BD9E29 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		0F2D70D21A07EECA00BD9E29 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +84,13 @@
 		0F2D70AA1A07ED4700BD9E29 /* ScrollToItem */ = {
 			isa = PBXGroup;
 			children = (
+				0F2D70B51A07ED4800BD9E29 /* Main.storyboard */,
 				0F2D70AF1A07ED4800BD9E29 /* AppDelegate.h */,
 				0F2D70B01A07ED4800BD9E29 /* AppDelegate.m */,
 				0F2D70B21A07ED4800BD9E29 /* ViewController.h */,
 				0F2D70B31A07ED4800BD9E29 /* ViewController.m */,
-				0F2D70B51A07ED4800BD9E29 /* Main.storyboard */,
+				0F2D70D11A07EECA00BD9E29 /* CollectionViewCell.h */,
+				0F2D70D21A07EECA00BD9E29 /* CollectionViewCell.m */,
 				0F2D70B81A07ED4800BD9E29 /* Images.xcassets */,
 				0F2D70BA1A07ED4800BD9E29 /* LaunchScreen.xib */,
 				0F2D70AB1A07ED4800BD9E29 /* Supporting Files */,
@@ -221,6 +226,7 @@
 			files = (
 				0F2D70B41A07ED4800BD9E29 /* ViewController.m in Sources */,
 				0F2D70B11A07ED4800BD9E29 /* AppDelegate.m in Sources */,
+				0F2D70D31A07EECA00BD9E29 /* CollectionViewCell.m in Sources */,
 				0F2D70AE1A07ED4800BD9E29 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
